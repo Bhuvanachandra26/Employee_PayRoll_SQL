@@ -109,7 +109,7 @@ FOREIGN KEY (EmployeeID) REFERENCES employee_payroll (id) ON DELETE CASCADE
 );
 Insert into Employee_Details ( Name, Gender, Mobile_Number , Address, Experience, emailId) values ( 'Bhuvan', 'M' ,'9391173347' , 'Kurnool' ,  '4 Years', 'bhuvanachandra@26@gmail.com'),
 																								 ( 'Guru',  'M' , ' 8886329322' , 'Betamcherla', '3 Years', 'gnanak@gmail.com'),
-																								 ( 'Charlie', 'F' , '7013626396', 'Kadapa' , '2 Years', 'pavan@gmial.com');
+																								 ( 'Pavan', 'F' , '7013626396', 'Kadapa' , '2 Years', 'pavan@gmial.com');
  Select * From employee_Details;  
   
 #UC11
